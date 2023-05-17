@@ -30,6 +30,10 @@ License
 This project is licensed under the MIT License.
 
 
+
+
+Clone the repository https://github.com/anubhavpratihar/crypto-token.git
+
 # Check your Balance
 
 1. Find out your principal id:
