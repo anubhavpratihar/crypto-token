@@ -1,3 +1,35 @@
+
+React Authentication App
+This React.js application integrates authentication functionality using the @dfinity/auth-client library for DFINITY Internet Computer. It allows users to authenticate and log in using their Internet Identity (II) credentials. Once authenticated, the user's principal is retrieved and passed as a prop to the main App component.
+
+Features
+Authentication: Users can log in using their Internet Identity (II) credentials.
+Principal Retrieval: The app retrieves the user's principal after successful authentication.
+Rendering: The App component is rendered with the logged-in user's principal.
+Backend
+The backend of this application is implemented in Motoko, a programming language for the DFINITY Internet Computer. It handles authentication and manages user data securely.
+
+Project Type
+This project is built on the Internet Computer Protocol (ICP) and leverages its infrastructure to provide decentralized and secure authentication.
+
+Usage
+Install dependencies by running npm install.
+Start the development server with npm start.
+Open your web browser and visit http://localhost:3000 to view the application.
+Technologies Used
+React.js
+JavaScript
+DFINITY Internet Computer
+Motoko (Backend Language)
+@dfinity/auth-client
+@dfinity/principal
+Credits
+This application utilizes the @dfinity/auth-client library for authentication with the DFINITY Internet Computer.
+
+License
+This project is licensed under the MIT License.
+
+
 # Check your Balance
 
 1. Find out your principal id:
